@@ -16639,10 +16639,10 @@ var index = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext || create
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Fproducts.tsx!./":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Fproducts.tsx ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Fproducts.tsx!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Fproducts.tsx ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31273,14 +31273,14 @@ function subtractQuantity(id) {
 
 /***/ }),
 
-/***/ 7:
-/*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Fproducts.tsx ***!
-  \*************************************************************************************************************************************/
+/***/ 4:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Fproducts.tsx ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Fproducts.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Fproducts.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Fproducts.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Fproducts.tsx!./");
 
 
 /***/ }),
@@ -31296,5 +31296,5 @@ module.exports = dll_13346faca0e924a89b24;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=products.js.map
