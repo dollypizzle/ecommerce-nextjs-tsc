@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -210,8 +210,9 @@ const Landing = () => {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const fetchData = async () => {
       try {
-        const response = await _axios_order__WEBPACK_IMPORTED_MODULE_4__["default"].get('/products');
+        const response = await _axios_order__WEBPACK_IMPORTED_MODULE_4__["default"].get("/products");
         setProduct(response.data);
+        console.log(response.data);
       } catch (error) {
         console.log(error);
       }
@@ -234,8 +235,8 @@ const Landing = () => {
     infinite: true
   }, __jsx("img", {
     style: {
-      height: '100px',
-      marginTop: '35px'
+      height: "100px",
+      marginTop: "35px"
     },
     className: "img-fluid",
     alt: "",
@@ -252,7 +253,7 @@ const Landing = () => {
     itemId: "1"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_6__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1566598359998-62e83aeea166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -265,7 +266,7 @@ const Landing = () => {
     itemId: "2"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_6__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -278,7 +279,7 @@ const Landing = () => {
     itemId: "3"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_6__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -291,7 +292,7 @@ const Landing = () => {
     itemId: "4"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_6__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1541735363-54a8c6dd824c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -353,14 +354,14 @@ const TableImg = props => {
 
 /***/ }),
 
-/***/ 7:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/dolapo/ecommerce-nextjs-t/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /home/dolapo/codes/projects/ecommerce-nextjs-tsc/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),

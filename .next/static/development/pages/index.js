@@ -14702,10 +14702,10 @@ var index = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext || create
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Findex.tsx!./":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Findex.tsx ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Findex.tsx!./":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Findex.tsx ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25309,25 +25309,26 @@ var Landing = function Landing() {
               case 0:
                 _context.prev = 0;
                 _context.next = 3;
-                return _axios_order__WEBPACK_IMPORTED_MODULE_6__["default"].get('/products');
+                return _axios_order__WEBPACK_IMPORTED_MODULE_6__["default"].get("/products");
 
               case 3:
                 response = _context.sent;
                 setProduct(response.data);
-                _context.next = 10;
+                console.log(response.data);
+                _context.next = 11;
                 break;
 
-              case 7:
-                _context.prev = 7;
+              case 8:
+                _context.prev = 8;
                 _context.t0 = _context["catch"](0);
                 console.log(_context.t0);
 
-              case 10:
+              case 11:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[0, 7]]);
+        }, _callee, null, [[0, 8]]);
       }));
 
       return function fetchData() {
@@ -25352,8 +25353,8 @@ var Landing = function Landing() {
     infinite: true
   }, __jsx("img", {
     style: {
-      height: '100px',
-      marginTop: '35px'
+      height: "100px",
+      marginTop: "35px"
     },
     className: "img-fluid",
     alt: "",
@@ -25370,7 +25371,7 @@ var Landing = function Landing() {
     itemId: "1"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_8__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1566598359998-62e83aeea166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -25383,7 +25384,7 @@ var Landing = function Landing() {
     itemId: "2"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_8__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -25396,7 +25397,7 @@ var Landing = function Landing() {
     itemId: "3"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_8__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -25409,7 +25410,7 @@ var Landing = function Landing() {
     itemId: "4"
   }, __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_8__["MDBView"], null, __jsx("img", {
     style: {
-      height: '500px'
+      height: "500px"
     },
     className: "d-block w-100",
     src: "https://images.unsplash.com/photo-1541735363-54a8c6dd824c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
@@ -25478,14 +25479,14 @@ var TableImg = function TableImg(props) {
 
 /***/ }),
 
-/***/ 6:
-/*!**************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Findex.tsx ***!
-  \**************************************************************************************************************************/
+/***/ 3:
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Findex.tsx ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fecommerce-nextjs-t%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdolapo%2Fcodes%2Fprojects%2Fecommerce-nextjs-tsc%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -25501,5 +25502,5 @@ module.exports = dll_13346faca0e924a89b24;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

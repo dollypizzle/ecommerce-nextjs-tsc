@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2317,14 +2317,14 @@ function subtractQuantity(id) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./pages/products.tsx ***!
   \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/dolapo/ecommerce-nextjs-t/pages/products.tsx */"./pages/products.tsx");
+module.exports = __webpack_require__(/*! /home/dolapo/codes/projects/ecommerce-nextjs-tsc/pages/products.tsx */"./pages/products.tsx");
 
 
 /***/ }),
